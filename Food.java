@@ -48,4 +48,12 @@ public class Food extends Item{
     public String toString(){
 	return getName() + " H:" + getHungerval() + " T:" + getThirstval() + " Spoiled:" + getSpoilage();
     }
+
+    public void use(Character player){
+    if (spoiled){
+        player.getHungry(hungerval);
+    }else{
+        player.eat(hungerval);
+    }
+    }
 }

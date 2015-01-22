@@ -204,7 +204,9 @@ public class Game{
 			if (decision.length()==2){
 			    try{
 				if (decision.substring(0,1).equalsIgnoreCase("U")){
-				    
+				    int important = Integer.parseInt(decision.substring(1));
+				    player.getItem(important).use(player);
+				    player.removeitem(player.getItem(important));
 				    done=true;
 				    done2=true;
 				}else if (decision.substring(0,1).equalsIgnoreCase("I")){
@@ -242,8 +244,8 @@ public class Game{
 
 	    //deduct stuff
 	    turnsLeft--;
-	    player.getHungry(5);
-	    player.getThirsty(5);
+	    player.getHungry(2);
+	    player.getThirsty(3);
 	    if (player.getHunger()==0){
 		player.getHurt(5);
 	    }

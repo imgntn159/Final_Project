@@ -28,7 +28,7 @@ public class Item{
     public int getHungerval(){
 	return 0;
     }
-    public void use(int usage,boolean canUse){
+    public void use(Character player){
     }
 
 }

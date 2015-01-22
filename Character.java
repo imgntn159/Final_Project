@@ -165,8 +165,5 @@ public class Character{
 	eat(inventory.get(i).getHungerval());
 	inventory.remove(i);
     }
-    public void useTool(int i,int u){
-	inventory.get(i).use(u,true);
-    }
     
 }

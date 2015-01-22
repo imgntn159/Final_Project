@@ -32,4 +32,12 @@ public class Medicine extends Item{
     public String toString(){
 	return getName() + " Stam:" + getStamval() + " Heal:" + getHealval();
     }
+
+    public void use(Character player){
+    if (!player.getSick()){
+        player.setSick(false);
+    }
+    player.heal(healval);
+    player.sleep(stamval); //PUT INTO CHARACTER.JAVA
+    }
 }
