@@ -1,0 +1,27 @@
+Adrenaline
+10
+0
+Acetaminophen
+2
+5
+Ibuprofen
+5
+2
+Cannabis
+-1
+0
+Morphine
+-2
+4
+Unknown Drug
+5
+0
+Unknown Drug
+0
+5
+Unknown Drug
+1
+4
+Alcohol
+3
+-2

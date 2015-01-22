@@ -1,0 +1,40 @@
+Banana
+5
+0
+false
+Potato
+5
+0
+true
+Water Bottle
+0
+4
+false
+Raw Chicken
+4
+0
+true
+Watermelon
+2
+4
+false
+Odd-Looking Water
+0
+3
+true
+Apple
+4
+0
+true
+Apple
+4
+0
+false
+Carrot
+4
+0
+false
+Can of Peaches
+4
+0
+false
